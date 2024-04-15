@@ -1,0 +1,15 @@
+###
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+<> response.json
+
+###
+
+GET http://127.0.0.1:8000/ai/generateStream1
+Accept: application/json
+
+<> ./responses/response.json
+
+
