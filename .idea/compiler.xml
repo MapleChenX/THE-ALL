@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lsp" />
+        <module name="LSP" />
         <module name="security" />
       </profile>
     </annotationProcessing>
@@ -18,9 +18,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="LSP" options="-parameters" />
       <module name="THE-ALL" options="" />
       <module name="back-end-LSP" options="-parameters" />
-      <module name="lsp" options="-parameters" />
       <module name="security" options="-parameters" />
     </option>
   </component>
