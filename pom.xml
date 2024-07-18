@@ -17,6 +17,7 @@
 	<modules>
 		<module>back-end-LSP</module>
         <module>security</module>
+        <module>TEST</module>
     </modules>
 
 </project>
