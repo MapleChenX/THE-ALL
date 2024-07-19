@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="LSP" />
-        <module name="TEST" />
         <module name="security" />
+        <module name="TEST" />
+        <module name="im-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="TEST" options="-parameters" />
       <module name="THE-ALL" options="" />
       <module name="back-end-LSP" options="-parameters" />
+      <module name="im-service" options="-parameters" />
       <module name="security" options="-parameters" />
     </option>
   </component>
