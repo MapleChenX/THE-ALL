@@ -1,0 +1,19 @@
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+  application:
+    name: TEST
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 111111
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    addresses: localhost
+    username: guest
+    password: guest
+    virtual-host: /

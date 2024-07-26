@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="LSP" />
         <module name="security" />
+        <module name="TEST" />
+        <module name="im-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,8 +21,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="LSP" options="-parameters" />
+      <module name="TEST" options="-parameters" />
       <module name="THE-ALL" options="" />
       <module name="back-end-LSP" options="-parameters" />
+      <module name="im-service" options="-parameters" />
       <module name="security" options="-parameters" />
     </option>
   </component>
