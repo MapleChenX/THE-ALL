@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import personal.MapleChenX.im_service.service.UserImService;
 
 @RestController
-public class UserImController  {
+public class UserImController {
 
     @Resource
     private UserImService userImService;
